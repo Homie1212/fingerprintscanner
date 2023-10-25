@@ -1,0 +1,14 @@
+C:\Users\Benji\Desktop\gpp\bin\Debug\net7.0\gpp.exe
+C:\Users\Benji\Desktop\gpp\bin\Debug\net7.0\gpp.deps.json
+C:\Users\Benji\Desktop\gpp\bin\Debug\net7.0\gpp.runtimeconfig.json
+C:\Users\Benji\Desktop\gpp\bin\Debug\net7.0\gpp.dll
+C:\Users\Benji\Desktop\gpp\bin\Debug\net7.0\gpp.pdb
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\gpp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\gpp.AssemblyInfoInputs.cache
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\gpp.AssemblyInfo.cs
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\gpp.csproj.CoreCompileInputs.cache
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\gpp.dll
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\refint\gpp.dll
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\gpp.pdb
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\gpp.genruntimeconfig.cache
+C:\Users\Benji\Desktop\gpp\obj\Debug\net7.0\ref\gpp.dll

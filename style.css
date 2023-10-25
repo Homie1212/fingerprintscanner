@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.mit{
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.active{
+  background-color: white;
+  color: black !important;
+  padding: 0.5rem 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+#container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.rlog {
+  display: block;
+  margin: 2rem auto;
+}
+#container .left {
+  text-align: center;
+  height: inherit;
+  background-color: rgb(53, 180, 53);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container .right {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  background-color: rgb(20, 20, 116);
+  text-align: center;
+}
+#container .right p {
+  text-align: left;
+}
+#container .right input {
+  display: block;
+  width: 100%;
+  border: none;
+  height: 3rem;
+}
+#container .right button {
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+  background-color: rgb(179, 179, 197);
+  border: none;
+  text-transform: uppercase;
+}
+#container .right button:hover {
+  color: white;
+  background-color: rgb(10, 10, 82);
+}
+#cond {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+#cond .lef {
+  height: 100vh;
+  background-color: rgb(53, 180, 53);
+}
+#cond .lef img {
+  text-align: center;
+}
+#cond .lef ul li {
+  margin: 1rem 0.2rem;
+}
+#cond .lef ul li a:hover {
+  color: black;
+}
+#cond .lef ul li a {
+  color: white;
+}
+#cond .ri {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(10, 10, 82);
+}
+#cond .ri button {
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+  background-color: rgb(179, 179, 197);
+  border: none;
+  text-transform: uppercase;
+}
+#cond .ri button:hover {
+  color: white;
+  background-color: rgb(10, 10, 82);
+}
+#cond .ri .co {
+  display: flex;
+  flex-direction: column;
+}
+#cond .ri .co img {
+  width: 20rem;
+}
+#cond .ri .co footer .td {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 2rem;
+}
+#cond .rii {
+  background-color: rgb(10, 10, 82);
+  color: white;
+}
+#cond .rii form .tu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+#cond .rii {
+  display: grid;
+  place-items: center;
+}
+#cond .rii form .tr {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0;
+}
+#cond .rii form .re {
+  display: flex;
+  justify-content: space-between;
+}
+#cond .rii form .re :nth-child(1) {
+  background-color: red;
+  border: none;
+}
+#cond .rii form .re :nth-child(1):hover {
+  background-color: rgb(182, 69, 69);
+  color: white;
+}
+#cond .rii form .re :nth-child(2):hover {
+  background-color: rgb(83, 143, 83);
+  color: white;
+}
+#cond .rii form .re :nth-child(2) {
+  background-color: green;
+  border: none;
+}
+#cond .rii form .re button {
+  padding: 1rem 4rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+#cond .rii form .fr{
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+#const{
+  height: 100vh;
+  display: grid;
+align-items: center;
+}
+#const .cren{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8rem;
+}
+#const .cren .lerf{
+  background-color: rgb(185, 185, 231);
+  height: fit-content;
+  padding: 2rem;
+}
+#const .cren .lerf .crd{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+#const .cren .lerf .btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+#const .cren .lerf .btns :nth-child(1){
+  background-color: red;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0.4rem 0;
+}
+#const .cren .lerf .btns :nth-child(1):hover{
+  color: white;
+  background-color: rgb(197, 59, 59);
+}
+#const .cren .lerf .btns :nth-child(2){
+  background-color: green;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0.4rem 0;
+}
+#const .cren .lerf .btns :nth-child(2):hover{
+  background-color: rgb(122, 184, 122);
+  color: white;
+}
+#const .cren .rif{
+  background-color: silver;
+  padding: 2rem;
+}
+#const .cren .rif .an{
+  display: flex;
+  justify-content: space-between;
+}
+#const .cren .rif .an .rii p{
+  margin: 1rem 0;
+}
+
+#const .cren .rif .btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+#const .cren .rif .btns :nth-child(1){
+  background-color: red;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0.4rem 0;
+}
+#const .cren .rif .btns :nth-child(1):hover{
+  color: white;
+  background-color: rgb(197, 59, 59);
+}
+#const .cren .rif .btns :nth-child(2){
+  background-color: green;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0.4rem 0;
+}
+#const .cren .rif .btns :nth-child(2):hover{
+  background-color: rgb(122, 184, 122);
+  color: white;
+}
